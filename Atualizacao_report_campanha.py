@@ -25,9 +25,6 @@ def save_data(siprocal, output_path):
     siprocal['Date'] = siprocal['Date'].dt.strftime('%d/%m/%Y')
     siprocal.to_excel(output_path, index=False)
 
-
-
-
 # === Configurando rutas de los archivos ===
 siprocal = r'C:\Users\xxxx\xxxx\Área de Trabalho\raw\julho\23\Report 23.07.25.xlsx'
 verisoft = r'C:\Users\xxxx\xxxx\Área de Trabalho\raw\julho\23\report-2025-07-23-09-44-36.csv'
